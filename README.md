@@ -66,3 +66,28 @@ The goal of this project is to **analyze claim data**, identify patterns related
 | **Frontend / UI** | Streamlit |
 
 ---
+
+## 🖥️ Using the Streamlit App
+
+### 1. Launch the App
+Once the Streamlit application starts running, you’ll see the main interface in your browser.
+
+### 2. Upload Your Data
+- Click on the **“Upload CSV”** button.  
+- Upload a CSV file **with the same structure** as the given Kaggle dataset
+
+
+### 3. Automatic Processing
+After the upload:
+- The system **automatically preprocesses** your data (handling missing values, encoding, scaling, etc.).  
+- Predictions are generated using **both trained models** (e.g., XGBoost and Random Forest).  
+- For each record, the app will display:
+  - **Fraud Probability (%)**  
+  - **Final Prediction (Fraud / Not Fraud)**
+
+
+### 4. View & Download Results
+- The processed results are displayed in a table format for quick review.  
+- Click on the **“Download Results”** button to export the full prediction report as a CSV file.
+
+
